@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+body {
+  @apply bg-stone-100;
+} */
+* {
+  box-sizing: border-box;
+}
+.dark body {
+  background: rgb(3,7,18);
+  color: white;
+}
+.light body {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
+body {
+  @apply antialiased	;
+  width: 100vw;
+  overflow-x: hidden;
+  width: 100vw;
+  font-family: 'Roboto', sans-serif;
+
+
+  height: 100vh;
+  /* @apply text-black; */
+}
+.router-link-active:focus{
+
+  @apply text-green-400
+}
+@layer components {
+  .title {
+    @apply dark:text-green-400 text-black text-lg md:text-xl mt-6 font-bold;
+  }
+  .link {
+    @apply hover:bg-slate-300 hover:text-black  cursor-pointer rounded-md text-lg font-normal  p-2 list-none;
+  }
+  .btn {
+    @apply dark:bg-green-400 dark:hover:bg-green-300 dark:text-black  bg-violet-600	 hover:bg-violet-700	 text-white px-6 py-3 text-center rounded-lg;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.tooltip {
+  @apply invisible absolute;
+}
+
+.has-tooltip:click .tooltip {
+  @apply visible z-50;
+}
+
+.code{
+  @apply w-1/2;
+ 
+}
+.pree{
+  @apply rounded-lg;
+}
+pre {
+  white-space: pre-wrap;
+}

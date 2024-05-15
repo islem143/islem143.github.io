@@ -25,7 +25,7 @@
     },
     {
       id: "2",
-      title: "Bachelor's degree in informations and systems",
+      title: "Bachelor's degree in Computer Science",
       date: "2018-2021",
       description:
       "I have obtained a bachelor's degree in informations and systems from the university of Oran, Algeria.",

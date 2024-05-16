@@ -1,7 +1,7 @@
 <template>
   <section id="contact" data-aos="zoom-in" class="flex flex-col p-8 w-full">
     <div class="mx-auto text-center">
-      <h4 class="text-4xl title my-4 flex justify-center ">
+      <h4 class="text-3xl md:text-4xl title my-4 flex justify-center ">
         <UIcon  name="i-heroicons-envelope" class="mr-2" />
         <span>CONTACT ME</span>
       </h4>

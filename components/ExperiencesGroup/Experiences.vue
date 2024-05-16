@@ -15,7 +15,7 @@
 const exps = [
   {
     id: "1",
-    title: "Full Stack Developer",
+    title: "Full Stack Developer @Pentabin",
     date: "June 2022-Now",
     description:
       "I'm currently working as a fullstack developer @Pentabin in Oran, Algeria. Some of my work :",

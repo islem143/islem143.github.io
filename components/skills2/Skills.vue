@@ -1,7 +1,7 @@
 <template>
   <div class="grid sm:grid-cols-2 gap-4 justify-start">
-    <div>
-      <p class="text-lg text-center leading-7 lg:text-left mb-4 sm:mb-0">
+    <div>   
+      <p class="md:text-lg text-left md:text-center leading-8 md:leading-8 lg:text-left mb-4 sm:mb-0">
         I'm comfortable using different programming languages and technologies
         for different projects and tasks. which include web development, both
         frontend and backend. I also have experience with the Linux environment,

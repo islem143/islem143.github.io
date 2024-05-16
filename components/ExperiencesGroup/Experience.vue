@@ -6,10 +6,10 @@
         <p class="font-light text-left text-slate-300">{{ date }}</p>
     </template>
 
-    <p class="my-2 md:text-lg  text-left ">{{ description }}</p>
-    <li v-for="w in work" class="text-left" :key="w">
+    <!-- <p class="my-2 md:text-lg  text-left ">{{ description }}</p> -->
+    <!-- <li v-for="w in work" class="text-left" :key="w">
           {{ w }}
-        </li>
+        </li> -->
   
   </UCard>
   <!-- <div class="flex font-light  gap-4 overflow-hidden">

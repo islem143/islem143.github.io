@@ -34,24 +34,7 @@ const projects = [
     ],
     more:true
   },
-  {
-    id: 2,
-    title: "E-learning WebApp",
-    description:
-      "This is an Learning web app where teachers create courses and attach different media formats for students. It contains also a chat section where teachers and students can chat each other.",
-    github: "https://github.com/islem143/Elearning-web-app",
-    img: "/img/home.webp",
-    skills: [
-      "Vue.js",
-      "Laravel",
-      "Docker",
-      "Nginix",
-      "Redis",
-      "Websockets",
-      "RL Database",
-    ],
-    more:true
-  },
+
   {
     id: 3,
     title: "Network Attack Visualisation Using The ELK Stack",
@@ -76,6 +59,24 @@ const projects = [
     description: "A google drive clone.",
     github: null,
     skills: ["Vue", "Larave", "Design"],
+    more:true
+  },
+  {
+    id: 2,
+    title: "E-learning WebApp",
+    description:
+      "This is an Learning web app where teachers create courses and attach different media formats for students. It contains also a chat section where teachers and students can chat each other.",
+    github: "https://github.com/islem143/Elearning-web-app",
+    img: "/img/home.webp",
+    skills: [
+      "Vue.js",
+      "Laravel",
+      "Docker",
+      "Nginix",
+      "Redis",
+      "Websockets",
+      "RL Database",
+    ],
     more:true
   },
   {

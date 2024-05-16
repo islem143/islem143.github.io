@@ -37,7 +37,10 @@ body {
 }
 @layer components {
   .title {
-    @apply dark:text-green-400 text-black text-lg md:text-xl mt-6 font-bold;
+    @apply dark:text-green-400 font-medium text-black text-lg md:text-xl mt-6;
+  }
+  .text{
+   @apply md:text-lg
   }
   .link {
     @apply hover:bg-slate-300 hover:text-black  cursor-pointer rounded-md text-lg font-normal  p-2 list-none;

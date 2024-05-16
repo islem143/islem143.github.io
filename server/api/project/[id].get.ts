@@ -22,23 +22,7 @@ export default defineEventHandler(async (event) => {
         ],
         more:true
       },
-        {
-          id: 2,
-          title: "E-Learning Web App",
-          description:
-            "This is a E-Learning web app where teachers create courses and attach different media formats for students. It contains also a chat section where teachers and students can chat each other.",
-          github: "https://github.com/islem143/Elearning-web-app",
-          img: ["/img/home.webp","/img/stats.webp","/img/admin-dashboard.webp",'/img/chat.webp','/img/modules.webp','/img/quiz.webp','/img/teacher-courses.webp'],
-          skills: [
-            "Vue.js",
-            "Laravel",
-            "Docker",
-            "Nginix",
-            "Redis",
-            "Websockets",
-            "RL Database",
-          ],
-        },
+        
         {
           id: 3,
           title: "Network Attack Visualisation Using The ELK Stack",
@@ -64,6 +48,23 @@ export default defineEventHandler(async (event) => {
           img:["/img/file_manager.webp"],
           skills: ["Vue", "Larave", "Ui/Ux","aws s3"],
           
+        },
+        {
+          id: 2,
+          title: "E-Learning Web App",
+          description:
+            "This is a E-Learning web app where teachers create courses and attach different media formats for students. It contains also a chat section where teachers and students can chat each other.",
+          github: "https://github.com/islem143/Elearning-web-app",
+          img: ["/img/home.webp","/img/stats.webp","/img/admin-dashboard.webp",'/img/chat.webp','/img/modules.webp','/img/quiz.webp','/img/teacher-courses.webp'],
+          skills: [
+            "Vue.js",
+            "Laravel",
+            "Docker",
+            "Nginix",
+            "Redis",
+            "Websockets",
+            "RL Database",
+          ],
         },
        
       ];

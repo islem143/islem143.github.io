@@ -1,12 +1,12 @@
 <template>
-  <UCard class="w-64 h-96 my-2" >
+  <UCard class="w-64 h-96 my-2 " >
     <template #header>
         
-        <h2 class="text-xl mb-1 text-left font-bold text-center text-wrap">{{ title }}</h2>
+        <h2 class="text-xl mb-1 font-bold text-center text-wrap">{{ title }}</h2>
       
     </template>
     <a target="_blank" :href="link">
-    <NuxtImg  width="250" height="250" class="img-main rounded-md" :src="img" alt="certification image" />
+    <NuxtImg  width="230" height="230" class="img-main rounded-md" :src="img" alt="certification image" />
 
     </a>
   </UCard>
@@ -24,6 +24,7 @@ const props = defineProps(["title", "link", "img"]);
 
 <style scoped>
 .img-main {
-  width: 250px;
+  width: 230px;
+  height: 200px;
 }
 </style>

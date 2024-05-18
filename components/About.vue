@@ -1,21 +1,23 @@
 <template>
-  <div class="bg-slate-900 ss mt-72">
+  <div class="  mt-72">
+
+    
+    
   <section  data-aos="fade-right" data-aos-duration="4000" id="about"   class="mt-64 md:mt-48 p-8 md:p-16 w-full xl:w-8/12   mx-auto transition-opacity ease-in duration-1000  ">
-     <!-- <UCard data-aos="zoom-in" class="flex flex-col p-0   text-center">  -->
+     <UCard :ui="{background: 'dark:hover:bg-opacity-80 dark:bg-neutral-900',rounded:'rounded-2xl'}" data-aos="zoom-in" class=" flex flex-col p-0  hover:bg-opacity-50 text-center">
       
       
       
-<div class="flex flex-col md:flex-row justify-center ff ">
-  <div class="w-full md:w-1/3 h-full ">
+<div class="grid grid-cols-1 sm:grid-cols-4  justify-center place-content-center  ">
+  <div class=" sm:mr-4 mx-auto  ">
        
-       <img  class="rounded-lg w-full  md:w-96  mt-8"  src="/img/1674390836719.jpeg" />
+       <img  class="rounded-lg  h-56    mt-6"  src="/img/1674390836719.jpeg" />
 
 
 
    </div>
-   <div class="w-full md:w-2/3 md:ml-5  mt-8">
+   <div class="   mt-0 sm:col-span-3">
     <h4 class="title text-3xl title md:text-4xl flex   place-items-center  ">
-        <UIcon  name="text-5xl i-heroicons-identification" class="mr-2" />
       
         <span class="">ABOUT ME</span>
       
@@ -37,7 +39,7 @@
       </p>
     </div>
     </div>
-  <!-- </UCard>  -->
+ </UCard> 
 
   </section>
 </div>

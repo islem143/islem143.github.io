@@ -3,6 +3,7 @@
     <div
       class="w-10/12 xl:w-7/12 mx-auto sm:flex place-items-center justify-between p-1 sm:p-3"
     >
+    
       <div class="flex place-items-center justify-between">
         <div id="logo w-full ">
 

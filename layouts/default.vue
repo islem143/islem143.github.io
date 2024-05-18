@@ -1,4 +1,6 @@
 <template>
+  <div class="absolute top-0 z-[-2] h-full w-full bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+
   <div class="fixed bg-slate-200 dark:bg-gray-800  top-0 w-full z-40  flex items-center gap-x-6 overflow-hidden   py-2.5 px-3.5 before:flex-1">
  
   <div class="">
@@ -10,7 +12,6 @@
    
   </div>
 </div>
-
   <Header class=" p-0 md:p-2 mt-10 relative "></Header>
   <UButton
     v-if="scroll > 50"

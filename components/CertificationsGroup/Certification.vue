@@ -1,5 +1,5 @@
 <template>
-  <UCard class="w-64 h-96 my-2 " >
+  <UCard  :ui="{background: 'dark:hover:bg-opacity-80 dark:bg-neutral-900',rounded:'rounded-2xl'}" class="w-64 h-96 my-2 " >
     <template #header>
         
         <h2 class="text-xl mb-1 font-bold text-center text-wrap">{{ title }}</h2>

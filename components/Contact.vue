@@ -15,7 +15,7 @@
         Hover me <span class="tooltip text-red-500 -mt-8">Look at this!</span>
       </p> -->
       <div class="flex flex-col md:flex-row">
-        <UCard>
+        <UCard :ui="{background: 'dark:hover:bg-opacity-80 dark:bg-neutral-900',rounded:'rounded-2xl'}">
           <h5 class="flex justify-center  text-lg place-items-center ">
             
             <UIcon  name="i-heroicons-inbox" class="mr-2 text-green-500 " />

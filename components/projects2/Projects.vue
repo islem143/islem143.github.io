@@ -1,5 +1,5 @@
 <template>
-  <div data-aos="zoom-in" class="grid md:grid-cols-2 gap-8 mx-auto">
+  <div data-aos="fade-leftn" class="grid md:grid-cols-2 gap-8 mx-auto">
     <Projects2Project
       v-for="project in projects"
       :key="project.id"

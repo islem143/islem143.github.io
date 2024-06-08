@@ -8,10 +8,10 @@
       
       
       
-<div class="grid grid-cols-1 sm:grid-cols-4  justify-center place-content-center  ">
+<div class="grid grid-cols-1 sm:grid-cols-4 gap-4 justify-center place-content-center  ">
   <div class=" sm:mr-4 mx-auto  ">
        
-       <img  class="rounded-lg  h-56    mt-6"  src="/img/1674390836719.jpeg" />
+       <img  class="rounded-lg  h-64    mt-6 "  src="/img/111.jpg" />
 
 
 

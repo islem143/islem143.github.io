@@ -73,3 +73,7 @@ html {
 pre {
   white-space: pre-wrap;
 }
+
+.badge{
+  @apply cursor-pointer dark:hover:bg-primary-200;
+}

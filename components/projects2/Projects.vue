@@ -1,22 +1,31 @@
 <template>
+  <div class="flex mb-8 gap-2">
+    <!-- Skills:
+    <UBadge @click="filter" class="badge" :ui="{ rounded: 'rounded-full' }">  <UIcon  name="i-heroicons-check" class="w-5 h-5" />
+       Docker</UBadge>
+    <UBadge class="badge" :ui="{ rounded: 'rounded-full' }">Vue.js</UBadge>
+    <UBadge :ui="{ rounded: 'rounded-full' }">Laravel</UBadge>
+    <UBadge :ui="{ rounded: 'rounded-full' }">Laravel</UBadge>
+    <UBadge :ui="{ rounded: 'rounded-full' }">Project 3</UBadge> -->
+  </div>
+
   <div data-aos="fade-leftn" class="grid md:grid-cols-2 gap-8 mx-auto">
-    <Projects2Project
-      v-for="project in projects"
-      :key="project.id"
-      :id="project.id"
-      :description="project.description"
-      :title="project.title"
-      :github="project.github"
-      :skills="project.skills"
-      :img="project.img"
-      :more="project.more"
-    />
+
+    <Projects2Project v-for="project in projects" :key="project.id" :id="project.id" :description="project.description"
+      :title="project.title" :github="project.github" :skills="project.skills" :img="project.img"
+      :more="project.more" />
   </div>
 </template>
 
 <script setup>
-const projects = [
-{
+// let skills=ref([
+//   {
+//     id:1,
+//     text:'Laravel'
+//   },
+// ])
+let projects = ref([
+  {
     id: 1,
     title: "Vue.js And Laravel Dashboard",
     description:
@@ -32,7 +41,7 @@ const projects = [
       "RL Database",
       "Ux/Ui"
     ],
-    more:true
+    more: true
   },
 
   {
@@ -50,7 +59,7 @@ const projects = [
       "Linux",
       "Automations",
     ],
-    more:true
+    more: true
   },
   {
     id: 4,
@@ -59,7 +68,7 @@ const projects = [
     description: "A google drive clone.",
     github: null,
     skills: ["Vue", "Larave", "Design"],
-    more:true
+    more: true
   },
   {
     id: 2,
@@ -77,7 +86,7 @@ const projects = [
       "Websockets",
       "RL Database",
     ],
-    more:true
+    more: true
   },
   {
     id: 5,
@@ -87,7 +96,10 @@ const projects = [
       "My Master's degree final year project. Where different robots try to form geometric shapes using deep reinforcement learning algorithms",
     github: "https://github.com/islem143/PFE-MASTER",
     skills: ["DL", "ML", "RL", "Python", "Ros", "Robotics", "Tensorflow"],
-    more:false
+    more: false
   },
-];
+]);
+const filter = () => {
+  projects.value = projects.value.filter(i => i.id == 1)
+};
 </script>

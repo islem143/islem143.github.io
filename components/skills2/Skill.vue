@@ -1,7 +1,7 @@
 <template>
 
-    <UBadge class="m-1 h-8 font-bold hover:underline cursor-pointer">
-      #{{ text }}
+    <UBadge class="m-1 h-8  hover:underline cursor-pointer">
+      {{ text }}
     </UBadge>
   
 </template>

@@ -6,7 +6,7 @@
         <p class="font-light text-left text-slate-300">{{ date }}</p>
     </template>
 
-    <p class="my-2 md:text-lg  text-left ">{{ description }}</p>
+    <p class="my-2 md:text-md  text-left text-gray-300 font-light  ">{{ description }}</p>
     <div  class="flex flex-wrap">
  
         <UBadge v-for="tag in tags" :key="tag" class="m-1">{{ tag }}</UBadge>

@@ -1,6 +1,6 @@
 <template>
-  <section id="contact" data-aos="zoom-in" class="flex flex-col p-8 w-full">
-    <div class="mx-auto text-center">
+  <section id="contact"  class="flex flex-col p-8 bg-neutral-900 w-full">
+    <div data-aos="zoom-in" class="mx-auto text-center">
       <h4 class="text-3xl md:text-4xl title my-4 flex justify-center ">
         <UIcon  name="i-heroicons-envelope" class="mr-2" />
         <span>CONTACT ME</span>
@@ -15,7 +15,7 @@
         Hover me <span class="tooltip text-red-500 -mt-8">Look at this!</span>
       </p> -->
       <div class="flex flex-col md:flex-row">
-        <UCard :ui="{background: 'dark:hover:bg-opacity-80 dark:bg-neutral-900',rounded:'rounded-2xl'}">
+        <UCard :ui="{background: 'dark:hover:bg-opacity-80 dark:bg-neutral-950',rounded:'rounded-2xl'}">
           <h5 class="flex justify-center  text-lg place-items-center ">
             
             <UIcon  name="i-heroicons-inbox" class="mr-2 text-green-500 " />

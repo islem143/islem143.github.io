@@ -21,7 +21,7 @@
       <nav :class="' rounded-md  transition-opacity	  duration-75	 ' + menuClass">
         <ul class="sm:flex-row text-center sm:flex mt-2">
           <li class="my-1">
-            <NuxtLink  @click="toggleMenu" class="link" to="/">Home</NuxtLink>
+            <NuxtLink  @click="toggleMenu" class="link" :to="{ path: '/', hash: '#home' }" >Home</NuxtLink>
           </li>
           <li class="my-1">
             <NuxtLink  @click="toggleMenu" class="link" :to="{ path: '/', hash: '#about' }"
@@ -51,7 +51,7 @@
           <li class="" >
             <UButton
             @click="toggleMenu"
-              class="link mb-4 ml-1 bg-violet-600 dark:bg-green-400 dark:text-black	 hover:bg-violet-700  text-white  hover:text-white"
+              class="link mb-4 ml-1  dark:bg-white dark:text-black	   text-white  hover:text-white"
               :to="{ path: '/', hash: '#contact' }"
               >Contact Me</UButton
             >

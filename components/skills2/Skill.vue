@@ -1,8 +1,8 @@
 <template>
 
-    <UBadge class="m-1 h-8 font-bold hover:underline cursor-pointer">
-      #{{ text }}
-    </UBadge>
+    <p class="m-1  text-xs rounded-xl py-1 px-3  text-black bg-neutral-100 hover:underline cursor-pointer">
+      {{ text }}
+    </p>
   
 </template>
 

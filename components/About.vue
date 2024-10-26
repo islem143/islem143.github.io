@@ -1,48 +1,59 @@
 <template>
-  <div class="  mt-72">
-
-    
-    
-  <section  data-aos="fade-right" data-aos-duration="4000" id="about"   class="mt-64 md:mt-48 p-8 md:p-16 w-full xl:w-8/12   mx-auto transition-opacity ease-in duration-1000  ">
-     <UCard :ui="{background: 'dark:hover:bg-opacity-80 dark:bg-neutral-900',rounded:'rounded-2xl'}" data-aos="zoom-in" class=" flex flex-col p-0  hover:bg-opacity-50 text-center">
-      
-      
-      
-<div class="grid grid-cols-1 sm:grid-cols-4 gap-4 justify-center place-content-center  ">
-  <div class=" sm:mr-4 mx-auto  ">
-       
-       <img  class="rounded-lg  h-64    mt-6 "  src="/img/111.jpg" />
+  <div class="    mt-72">
 
 
 
-   </div>
-   <div class="   mt-0 sm:col-span-3">
-    <h4 class="title text-3xl title md:text-4xl flex   place-items-center  ">
-      
-        <span class="">ABOUT ME</span>
-      
-      </h4>
-   
-      <p
-        class=" mt-4  text-left   md:text-lg	 md:text-left  leading-8 md:leading-8  "
-      >             
-        My name is Djennane Islem, a software engineer focusing mainly on
-        the web.
+    <section data-aos="fade-right" data-aos-duration="4000" id="about"
+      class=" p-16 md:p-32 w-full xl:w-7/12   mx-auto transition-opacity ease-in duration-1000  ">
+      <div  class=" bg-white p-8   flex flex-col shadow-[2px_4px_16px_0px_rgba(0,0,0,0.06)_inset]  rounded-2xl hover:scale-105 transition-transform text-center">
 
-        <br>
-         I like all things related to software engineering but mostly : backend development,
-        server-side and cloud related technologies.
-        <br>
-         I enjoy learning how things
-        work internally and spend a good amount of time digging deeper in the
-        inner working of technologies.
-      </p>
-    </div>
-    </div>
- </UCard> 
 
-  </section>
-</div>
+
+        <div class="flex gap-3    ">
+          <!-- <div class=" s  p-0 w-full ">
+
+           
+
+
+
+          </div> -->
+          <div class="   mt-0 ">
+            <h4 class="title mt-1 text-3xl title md:text-4xl flex    place-items-center  ">
+
+              <span class="text-black">About me</span>
+
+            </h4>
+
+            <p class=" mt-2  text-left    font-light text-black 	 md:text-left  leading-7   ">
+              My name is Djennane Islem, a software engineer focusing mainly on
+              the web.
+
+
+              I like all things related to software engineering but mostly : backend development,
+              server-side and cloud related technologies.
+
+              I enjoy learning how things
+              work internally and spend a good amount of time digging deeper in the
+              inner working of technologies.
+            </p>
+            <!-- <h4 class="text-left text-2xl mt-2">Skills:</h4>
+            <div class="flex flex-wrap gap-0  mt-1">
+              <Skills2Skill text="skill 1" />
+              <Skills2Skill text="skill 2" />
+              <Skills2Skill text="skill 3" />
+              <Skills2Skill text="skill 4" />
+              <Skills2Skill text="skill 5" />
+              <Skills2Skill text="skill 2" />
+              <Skills2Skill text="skill 3" />
+              <Skills2Skill text="skill 4" />
+
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </div>
 </template>
 
 <script setup>
@@ -50,12 +61,7 @@
 </script>
 
 <style scoped>
+.ss {}
 
-.ss{
-
-
-}
-.ff{
-
-}
+.ff {}
 </style>

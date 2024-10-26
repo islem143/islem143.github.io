@@ -14,7 +14,8 @@
  
     <Main />
     <About />
-    <Skills />
+   <Services/>
+    <!-- <Skills /> -->
     <Projects />
     <Education/>
     <Certifications />

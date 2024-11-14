@@ -4,12 +4,12 @@ const {data}=await useFetch("/api/project/"+id,{
     method:"get"
 });
 
-console.log(data.value.project);
+console.log(data.value);
 
 
 let project=data.value.project;
-const images=project.img;
-console.log(images);
+//const images=project.img;
+
 
 const { data:data2 } = await useAsyncData(id, () => queryContent('project').where({id:parseInt(id)}).findOne())
 

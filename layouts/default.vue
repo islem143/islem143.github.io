@@ -1,8 +1,6 @@
 <template>
-<div
-  class="-z-10 absolute inset-0 h-full w-full bg-black bg-[linear-gradient(to_right,#cccccc12_1px,transparent_1px),linear-gradient(to_bottom,#cccccc12_1px,transparent_1px)] bg-[size:40px_40px]"
-></div>
-  <div class="fixed bg-slate-200 dark:bg-gray-800  top-0 w-full z-40  flex items-center gap-x-6 overflow-hidden   py-2.5 px-3.5 before:flex-1">
+
+  <!-- <div class="fixed bg-slate-200 dark:bg-gray-800  top-0 w-full z-40  flex items-center gap-x-6 overflow-hidden   py-2.5 px-3.5 before:flex-1">
  
   <div class="">
     <p class="text-sm leading-6 ">
@@ -12,23 +10,16 @@
   <div class="flex flex-1 justify-end">
    
   </div>
-</div>
-  <Header class=" p-0 md:p-2 mt-10 relative "></Header>
-  <UButton
-    v-if="scroll > 50"
-    style="z-index: 1000;"
-    icon="i-heroicons-arrow-long-up"
-    variant="solid"
-    size="xl"
-    :to="{ path: '/' }"
-    class="text-black       bg-slate-500  cursor-pointer p-2 rounded-full fixed bottom-2 right-5"
-    @click="top"
-  />
-    
-  
+</div> -->
+  <Header class=" p-0 md:p-2 relative "></Header> 
+  <Button v-if="scroll > 50" style="z-index: 1000;" icon="i-heroicons-arrow-long-up" variant="solid" size="xl"
+    :to="{ path: '/' }" class="text-black       bg-slate-500  cursor-pointer p-2 rounded-full fixed bottom-2 right-5"
+    @click="top"></Button>
+
+
   <!-- <button @click="toogle">theme</button> -->
- 
- 
+
+
   <div class="">
     <slot></slot>
   </div>
@@ -37,6 +28,9 @@
 <script setup>
 import { onMounted, ref } from "vue";
 
+import { useColorMode } from "@vueuse/core";
+const colorMode = useColorMode();
+colorMode.value = "dark";
 
 
 
@@ -53,19 +47,15 @@ onMounted(() => {
 });
 
 
-useColorMode().preference="dark";
 
-const toogle=()=>{
-  useColorMode().preference=useColorMode().preference=="dark"?'light':'dark'
+const toogle = () => {
+  useColorMode().preference = useColorMode().preference == "dark" ? 'light' : 'dark'
 }
 
 </script>
-<style >
-
+<style>
 .icon {
   height: 100px;
   width: 30px;
 }
-
-
 </style>

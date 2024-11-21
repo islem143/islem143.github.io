@@ -1,12 +1,12 @@
 <template>
-
+  <ParticlesBg class="absolute inset-0 -z-10" :quantity="100" :ease="100" :color="'#FFF'" :staticity="10" refresh />
   <main data-aos="zoom-in" class=" relative	 mt-20 background-grid">
     <div class="mx-auto flex flex-col items-center w-full xl:w-8/12 px-8 md:px-16">
 
       <div class="flex w-full  alig md:gap-4">
         <div class="text-center  w-full sm:w-1/2 mx-auto md:w-2/3">
           <h1 class="md:text-7xl text-5xl sm:text-4xl font-bold     ">
-            <span class="dark:text-green-400">Hi, I'M ISLEM</span>
+            <span class="">Hi, I'M ISLEM</span>
 
             <span class="block text-4xl md:text-5xl mt-2">A Software Engineer.</span>
           </h1>
@@ -14,13 +14,12 @@
           <div class="flex md:flex-row flex-col justify-center gap-3 mt-8">
 
             <a target="_blank" href="pdf/Djennane_Islem_CV.pdf">
-              <UButton class="hover:scale-110 transition-transform rounded-xl " size="xl" label="My CV"
-                icon="i-heroicons-identification" />
+              <Button class="hover:scale-110 transition-transform rounded-xl ">My CV</Button>
             </a>
             <NuxtLink :to="{ path: '/', hash: '#projects' }">
 
 
-              <UButton class="hover:scale-110 transition-transform rounded-xl" size="xl" label="My Projects"
+              <Button class="hover:scale-110 transition-transform rounded-xl" size="xl" label="My Projects"
                 icon="i-heroicons-code-bracket-square" />
             </NuxtLink>
           </div>

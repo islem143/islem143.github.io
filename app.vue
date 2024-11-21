@@ -24,13 +24,5 @@ useSeoMeta({
 
 <style>
 
-body .dark  {
-  background-color: #091a28;
-  color: #00ffaa;
-}
 
- body .light {
-  background-color: #f1e7d0;
-  color: #ffffff;
-}
 </style>

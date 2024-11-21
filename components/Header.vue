@@ -18,8 +18,8 @@
           />
         </div>
       </div>
-      <nav :class="' rounded-md  transition-opacity	  duration-75	 ' + menuClass">
-        <ul class="sm:flex-row text-center sm:flex mt-2">
+      <nav :class="' rounded-md   transition-opacity	  duration-75	 ' + menuClass">
+        <ul class="sm:flex-row gap-3 text-center sm:flex mt-2">
           <li class="my-1">
             <NuxtLink  @click="toggleMenu" class="link" to="/">Home</NuxtLink>
           </li>
@@ -49,11 +49,11 @@
             >
           </li>
           <li class="" >
-            <UButton
+            <Button
             @click="toggleMenu"
-              class="link mb-4 ml-1 bg-violet-600 dark:bg-green-400 dark:text-black	 hover:bg-violet-700  text-white  hover:text-white"
+              class="link mb-4 ml-1   "
               :to="{ path: '/', hash: '#contact' }"
-              >Contact Me</UButton
+              >Contact Me</Button
             >
           </li>
         </ul>

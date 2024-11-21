@@ -8,7 +8,7 @@ console.log(data.value);
 
 
 let project=data.value.project;
-//const images=project.img;
+const images=project.img;
 
 
 const { data:data2 } = await useAsyncData(id, () => queryContent('project').where({id:parseInt(id)}).findOne())
@@ -46,7 +46,7 @@ const openModel=(index:number)=>{
       >
     </div>
     <UCarousel  v-slot="{ item,index }" :items="images" :ui="{ item: 'basis-full' }" class="carrou mx-auto my-4  rounded-lg overflow-hidden " indicators arrows >
-    <img class="img w-full"   @click="openModel(index)" :src="item"  draggable="false">
+    <img loading="lazy" class="img w-full"   @click="openModel(index)" :src="item"  draggable="false">
   </UCarousel>
 <!-- <Carousel>
     <Slide v-for="(img,index) in project.img" :key="img">
@@ -74,7 +74,7 @@ const openModel=(index:number)=>{
 </UCard>
 <UModal :ui="{'width':' scale-100 md:scale-200'}"  v-model="isOpen">
     
-    <img    :src="project.img[currentIndex]" />
+    <img    loading="lazy" :src="project.img[currentIndex]" />
  
 </UModal>
   

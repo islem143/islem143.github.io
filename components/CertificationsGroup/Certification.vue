@@ -6,7 +6,7 @@
       
     </template>
     <a target="_blank" :href="link">
-    <NuxtImg  width="230" height="230" class="img-main rounded-md" :src="img" alt="certification image" />
+    <img loading="lazy"  width="230" height="230" class="img-main rounded-md" :src="img" alt="certification image" />
 
     </a>
   </UCard>

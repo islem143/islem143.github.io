@@ -10,7 +10,7 @@
 <div class="grid grid-cols-1 gap-5 sm:grid-cols-4  justify-center place-content-center  ">
   <div class=" sm:col-span-1 mx-auto mt-3 sm:mt-0  ">
        
-       <img  class="rounded-lg h-60 sm:h-fit       "  src="/img/111.jpg" />
+       <img  loading="lazy" class="rounded-lg h-60 sm:h-fit       "  src="/img/111.webp" />
 
 
 

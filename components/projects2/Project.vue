@@ -1,6 +1,6 @@
 <template>
   <div class="card flex flex-col">
-    <img  width="300"  height="300" v-if="img" :src="img" alt="project image" />
+    <img  loading="lazy" width="300"  height="300" v-if="img" :src="img" alt="project image" />
     
     <p v-else class="text-white text-xl">{{ title }}</p>
     

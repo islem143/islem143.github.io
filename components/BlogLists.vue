@@ -49,6 +49,6 @@ const { data } = await useAsyncData('home', () => queryContent('/posts').find())
 console.log(data.value);
 
 let nbrPosts = ref(0);
-nbrPosts = data.value.length;
+nbrPosts = 0;
 
 </script>

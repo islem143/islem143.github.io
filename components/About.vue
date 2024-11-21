@@ -3,7 +3,7 @@
 
     
     
-  <section  data-aos="fade-right" data-aos-duration="4000" id="about"   class="mt-64 md:mt-48 p-8 md:p-16 w-full xl:w-8/12   mx-auto transition-opacity ease-in duration-1000  ">
+  <section  data-aos="fade-right" data-aos-duration="4000" id="about"   class="z-100 mt-64 md:mt-48 p-8 md:p-16 w-full xl:w-8/12   mx-auto transition-opacity ease-in duration-1000  ">
       
       
       

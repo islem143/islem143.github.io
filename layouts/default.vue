@@ -1,6 +1,6 @@
 <template>
 <div
-  class="-z-10 absolute inset-0 h-full w-full bg-black bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px]"
+  class="-z-10 absolute inset-0 h-full w-full bg-black bg-[linear-gradient(to_right,#cccccc12_1px,transparent_1px),linear-gradient(to_bottom,#cccccc12_1px,transparent_1px)] bg-[size:40px_40px]"
 ></div>
   <div class="fixed bg-slate-200 dark:bg-gray-800  top-0 w-full z-40  flex items-center gap-x-6 overflow-hidden   py-2.5 px-3.5 before:flex-1">
  

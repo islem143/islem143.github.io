@@ -7,12 +7,12 @@
  
 
       </div>
-     <p class="text-2xl text-left text-slate-300 mt-3 mb-3 w-full"> {{ text }} </p>
+     <p class="text-lg md:text-xl lg:text-2xl text-left text-slate-300 mt-3 mb-3 w-full"> {{ text }} </p>
 
       <div class="flex flex-col space-y-2">
         <div v-for="skill in skills" :key="skill" class="flex items-center">
-          <UIcon name="i-heroicons-check-circle " class="text-green-500 mr-2" />
-          <span class="text-gray-300 sm:text-sm md:text-base">{{ skill }}</span>
+          <UIcon name="i-heroicons-check-circle " class="text-green-500 mr-2 " />
+          <span class= " text-start text-gray-300 text-sm md:text-base">{{ skill }}</span>
         </div>
       </div>
   </UCard>

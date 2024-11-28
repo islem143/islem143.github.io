@@ -15,6 +15,7 @@
     <Main />
     <About />
     <Skills />
+    <!-- <Services /> -->
     <Projects />
     <Education/>
     <Certifications />
@@ -25,6 +26,8 @@
 </template>
 
 <script setup>
+import Services from '~/components/Services.vue';
+
 
 
 </script>

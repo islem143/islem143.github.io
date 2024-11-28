@@ -1,13 +1,13 @@
 <template>
-  <div class="  mt-72">
+  <div class="   mt-96">
 
     
     
-  <section  data-aos="fade-right" data-aos-duration="4000" id="about"   class="z-100 mt-64 md:mt-48 p-8 md:p-16 w-full xl:w-8/12   mx-auto transition-opacity ease-in duration-1000  ">
+  <section    id="about"   class="z-100 mt-64 md:mt-48 p-8 md:p-16 w-full xl:w-8/12   mx-auto transition-opacity ease-in duration-1000  ">
       
       
       
-<div class="grid grid-cols-1 gap-5 sm:grid-cols-4  justify-center place-content-center  ">
+<div data-aos="fade-right" data-aos-duration="4000"class="grid grid-cols-1 gap-5 sm:grid-cols-4  justify-center place-content-center  ">
   <div class=" sm:col-span-1 mx-auto mt-3 sm:mt-0  ">
        
        <img  loading="lazy" class="rounded-lg h-60 sm:h-fit       "  src="/img/111.webp" />
@@ -39,9 +39,13 @@
     </div>
 
     </div>
-
-
+   
+    
   </section>
+
+
+
+  
 </div>
 </template>
 

@@ -27,11 +27,11 @@ const openModel=(index:number)=>{
 </script>
 
 <template>
-     <section v-if="project" class="mx-auto    w-full xl:w-7/12 p-8 md:p-16"  >
+     <section v-if="project" class="mx-auto   w-full lg:w-11/12   p-8 md:p-16"  >
         
    <h1 class="text-3xl mb-5" >{{ project.title }} </h1>
    
-   <UCard>
+   <UCard :ui="{background: 'dark:hover:bg-opacity-80 dark:bg-neutral-900',rounded:'rounded-2xl'}">
     <div class="flex justify-end">
     <UButton
    class="mt-4"
@@ -113,17 +113,35 @@ const openModel=(index:number)=>{
   
 }
 .carrou{
-  width:600px;
+  width:1000px;
 }
 .carrou img{
-height: 400px;
+height: 500px;
 }
+@media only screen and (max-width: 1200px) {
+  .carrou{
+  width:800px;
+}
+.carrou img{
+height: 650px;
+}
+}
+@media only screen and (max-width: 1000px) {
+  .carrou{
+  width:650px;
+}
+.carrou img{
+height: 500px;
+}
+}
+
+
 @media only screen and (max-width: 700px) {
   .carrou{
   width:500px;
 }
 .carrou img{
-height: 500px;
+height: 350px;
 }
 }
 @media only screen and (max-width: 600px) {
@@ -131,7 +149,7 @@ height: 500px;
   width:400px;
 }
 .carrou img{
-height: 400px;
+height: 250px;
 }
 }
 @media only screen and (max-width: 480px) {

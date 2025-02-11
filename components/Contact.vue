@@ -19,7 +19,7 @@
           <h5 class="flex justify-center  text-lg place-items-center ">
             
             <UIcon  name="i-heroicons-inbox" class="mr-2 text-green-500 " />
-            <span class="hover:underline"> admin@islem-djennane.pro</span>
+            <span class="hover:underline"> djennaneislempro@gmail.com</span>
           </h5>
         
             <div class="flex justify-center mt-4">

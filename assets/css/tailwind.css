@@ -2,6 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 
+body {
+  @apply bg-stone-100;
+} */
+* {
+  box-sizing: border-box;
+}
+
+.dark body {
+
+  color: white;
+  @apply bg-black;
+}
+.light body {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
+body {
+  @apply antialiased;
+  width: 100vw;
+  overflow-x: hidden;
+
+  font-family: "Poppins", sans-serif;
+ 
+
+
+
+  height: 100vh;
+  /* @apply text-black; */
+}
+.router-link-active:focus{
+
+  @apply text-green-400
+}
+@layer components {
+  .title {
+    @apply dark:text-white font-medium text-black text-lg md:text-xl mt-6;
+  }
+}
 @layer base {
   :root {
     --background: 0 0% 100%;

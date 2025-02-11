@@ -13,15 +13,15 @@
 
  
     <Main />
- <!--    <About />
+    <About />
     <Skills />
-    <!-- <Services /> -->
+   <Services />
     <Projects />
     <Education/>
     <Certifications />
     <Experience />
     <Contact  /> 
-     --> 
+   
 
 </template>
 

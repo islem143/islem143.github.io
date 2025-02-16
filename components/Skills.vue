@@ -24,8 +24,8 @@
 <script setup>
 const domains = [
 {id:1,text:"Front End Development",icon:"i-heroicons-code-bracket",skills:["HTML,CSS,JavaScript","Vue.js","Responsive Web Design", "UI/UX","Performance Optimization"]},
-{id:2,text:"Back End Development",icon:"i-heroicons-server",skills:["Python, PHP, Node.js, Java, Laravel",'Databases Design & Optimization','API Development','Security & Performance' ]},
-{id:3,text:"DevOps & Cloud",icon:"i-heroicons-server-stack",skills:["Docker", "Linux" ,"AWS", "Digital Ocean"]},
+{id:2,text:"Back End Development",icon:"i-heroicons-server",skills:["Python, PHP, Node.js, Java, Laravel",'Databases Design & Optimization','API Development','Testing','Security & Performance' ]},
+{id:3,text:"DevOps & Cloud",icon:"i-heroicons-server-stack",skills:["Docker", "Linux" ,"AWS", "Digital Ocean",'Ci/Cd, Github Actions']},
  {id:5,text:"Ai & ML",icon:"i-heroicons-chart-bar",skills:["Reinforcement Learning","Deep Learning",'NLP',"Computer Vision","TensorFlow",],css:'lg:col-start-2'},
 ];
 

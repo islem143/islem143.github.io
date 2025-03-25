@@ -1,16 +1,16 @@
 <template>
-<!-- <div
+ <!-- <div
   class="-z-10 absolute inset-0 h-full w-full bg-black bg-[linear-gradient(to_right,#cccccc12_1px,transparent_1px),linear-gradient(to_bottom,#cccccc12_1px,transparent_1px)] bg-[size:40px_40px]"
 ></div> -->
 
 
-  <div class="absolute inset-0">
+  <!-- <div class="absolute inset-0">
     <div class="relative h-full w-full bg-black [&>div]:absolute [&>div]:left-0 [&>div]:right-0 [&>div]:top-[-10%] [&>div]:h-[1000px] [&>div]:w-[1000px] [&>div]:rounded-full [&>div]:bg-[radial-gradient(circle_400px_at_50%_300px,#fbfbfb36,#000)]">
     <div></div>
     
   </div>
   </div>
-
+ -->
 
 
 

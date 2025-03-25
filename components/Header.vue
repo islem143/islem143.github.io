@@ -34,6 +34,11 @@
             >
           </li>
           <li class="my-1">
+            <NuxtLink  @click="toggleMenu" class="link" :to="{ path: '/', hash: '#services' }"
+              >Services</NuxtLink
+            >
+          </li>
+          <li class="my-1">
             <NuxtLink  @click="toggleMenu" class="link" :to="{ path: '/', hash: '#projects' }"
               >Projects</NuxtLink
             >

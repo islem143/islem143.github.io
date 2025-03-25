@@ -13,13 +13,13 @@
 
  
     <Main />
+    <Skills />
+    <Projects />
     <Services />
     <!-- <About /> -->
-    <Projects />
-    <Skills />
+    <Experience />
     <Education/>
     <Certifications />
-    <Experience />
     <Contact  /> 
     
 

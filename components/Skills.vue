@@ -1,5 +1,5 @@
 <template>
-  <section id="skills" data-aos="fade-left" class=" mt-24  flex-col p-8 md:p-16 w-full xl:w-8/12 mx-auto text-center">
+  <section id="skills" data-aos="fade-left" class=" mt-72  flex-col p-8 md:p-16 w-full xl:w-8/12 mx-auto text-center">
     <h4 class="title my-1 text-3xl md:text-4xl flex justify-center mb-5">
         <UIcon  name="i-heroicons-wrench-screwdriver" class="mr-2" />
         <span>Skills </span>

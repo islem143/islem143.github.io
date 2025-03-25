@@ -30,7 +30,7 @@ let projects = ref([
     title: "Vue.js And Laravel Dashboard",
     description:
       "This is an Learning web app where teachers create courses and attach different media formats for students. It contains also a chat section where teachers and students can chat each other.",
-    github: "https://github.com/islem143/Elearning-web-app",
+    github: null,
     img: "/img/ws_dashboard.webp",
     skills: [
       "Vue.js",

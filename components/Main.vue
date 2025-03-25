@@ -3,18 +3,18 @@
   <main data-aos="zoom-in" class=" relative	 mt-24 background-grid">
     <div class="mx-auto w-full xl:w-8/12 px-8 md:px-16">
 
-      <div class="grid grid-col-1    md:grid-cols-3 w-full   md:gap-4">
-        <div class="text-center col-span-2  w-full ">
-          <h1 class="md:text-5xl text-5xl sm:text-4xl font-bold  md:text-left    ">
+      <div class="grid grid-col-1    lg:grid-cols-3 w-full   md:gap-4">
+        <div class="text-center lg:col-span-2  w-full ">
+          <h1 class="md:text-5xl text-4xl sm:text-4xl font-bold  lg:text-left    ">
             <span class="">I am ISLEM</span>
 
-            <span class="block text-7xl md:text-7xl mt-4 dark:text-green-400">A Software Engineer.</span>
+            <span class="block text-5xl md:text-7xl mt-4 dark:text-green-400">A Software Engineer.</span>
           </h1>
-          <div class="md:w-[75%]">
+          <div class="lg:w-[75%]">
 
-            <p class="md:text-left mt-3 text-lg">Software engineer specializing in full-stack development, building high-performance and user friendly applications.</p>
+            <p class="lg:text-left  ma mt-3 text-lg">Specializing in full-stack development, building high-performance and user friendly applications.</p>
           </div>
-          <div class="flex md:flex-row flex-col justify-start gap-3 mt-8">
+          <div class="flex lg:flex-row flex-col justify-start gap-3 mt-8">
 
             <a target="_blank" href="pdf/Djennane_Islem_CV.pdf">
               <UButton class="hover:scale-110 transition-transform rounded-xl " size="xl" label="My CV"
@@ -39,9 +39,9 @@
       </div>
           </div>
         </div>
-        <div class="w-full">
+        <div class="mx-auto mt-4 lg:mt-0">
 
-          <img loading="lazy" style="border-radius: 5%;max-width: 350px;" class="border-2 border-green-400  h-64 sm:h-fit       " src="/img/111.webp" />
+          <img loading="lazy" id="myImage" style="border-radius: 5%;max-width: 300px;" class="border-2 border-green-400  h-64 sm:h-fit       " src="/img/111.webp" />
 
         </div> 
 

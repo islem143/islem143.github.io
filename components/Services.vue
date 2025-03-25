@@ -3,8 +3,8 @@
 
 
 
-  <section data-aos="fade-right" data-aos-duration="4000" id="about"
-    class="z-100    mt-96 p-8 md:p-16 w-full xl:w-8/12   mx-auto transition-opacity ease-in duration-1000  ">
+  <section data-aos="fade-right" data-aos-duration="4000" id="services"
+    class="z-100    mt-24 p-8 md:p-16 w-full xl:w-8/12   mx-auto transition-opacity ease-in duration-1000  ">
 
     <h4 class="title my-1 text-3xl md:text-4xl flex justify-center mb-5">
       <UIcon name="i-heroicons-wrench-screwdriver" class="mr-2" />
@@ -39,9 +39,9 @@
 
 <script setup>
 const services = [
-  { id: 1,title:'Full Stack Development', text: "Frontend Development,Backend Development,API Integrations,Database Design & Optimization", icon: "i-heroicons-code-bracket", skills: ["Web Application Development ", "API Integrations", "Database Design & Optimization","Security & Performance"] },
+  { id: 1,title:'Full Stack Development', text: "Frontend Development,Backend Development,API Integrations,Database Design & Optimization", icon: "i-heroicons-code-bracket", skills: ["Web Application Development ", "API Integrations", "Database Design & Optimization"] },
   { id: 3, title: "Cloud & Devops", icon: "i-heroicons-server-stack", skills: ["Cloud Infrastructure Setup", "CI/CD Pipeline Implementation"] },
-  { id: 5, title: "Others", icon: "i-heroicons-chart-bar", skills: ["Custom Automation Scripts", "Chrome Extension Development","AI Image Processing && OCR"], css: 'lg:col-start-2' },
+  { id: 5, title: "Others", icon: "i-heroicons-chart-bar", skills: ["Custom  Scripts Development", "Chrome Extension Development"], css: 'lg:col-start-2' },
 
 ];
 

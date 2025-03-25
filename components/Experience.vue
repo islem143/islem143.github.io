@@ -6,7 +6,7 @@
       <h4 class="text-3xl md:text-4xl title my-4 flex justify-center "> <span>
         <UIcon  name="i-heroicons-briefcase" class="mr-2" />
 
-      </span>EXPERIENCE</h4>
+      </span>Experience</h4>
        
 
 

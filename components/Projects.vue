@@ -4,7 +4,7 @@
     <div class="w-10/12 xl:w-8/12 mx-auto text-center">
       <h4 class="md:text-4xl text-3xl title my-4 mb-12 flex justify-center ">
         <UIcon  name="i-heroicons-code-bracket-square" class="mr-2" />
-        <span>PROJECTS</span>
+        <span>Projects</span>
         
 
 

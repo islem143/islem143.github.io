@@ -11,7 +11,7 @@
 
       <div class="flex flex-col space-y-2">
         <div v-for="skill in skills" :key="skill" class="flex items-center">
-          <UIcon name="i-heroicons-check-circle " class="text-green-500 mr-2 " />
+          <UIcon name="i-heroicons-check-circle" class="text-green-500 mr-2 " />
           <span class= " text-start text-gray-300 text-sm md:text-base">{{ skill }}</span>
         </div>
       </div>

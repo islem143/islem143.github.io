@@ -3,7 +3,7 @@
     <div class="mx-auto text-center">
       <h4 class="text-3xl md:text-4xl title my-4 flex justify-center ">
         <UIcon  name="i-heroicons-envelope" class="mr-2" />
-        <span>CONTACT ME</span>
+        <span>Contact me</span>
       </h4>
 
       

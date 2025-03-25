@@ -2,7 +2,7 @@
   <section id="skills" data-aos="fade-left" class=" mt-24  flex-col p-8 md:p-16 w-full xl:w-8/12 mx-auto text-center">
     <h4 class="title my-1 text-3xl md:text-4xl flex justify-center mb-5">
         <UIcon  name="i-heroicons-wrench-screwdriver" class="mr-2" />
-        <span>SKILLS </span>
+        <span>Skills </span>
       </h4>
     <div class="grid md:grid-cols-2  lg:grid-cols-3 gap-4">
       <Skills2Skills v-for="domain in domains" :key="domain.id" :text="domain.text" :skills="domain.skills" :icon="domain.icon" :css="domain.css" />

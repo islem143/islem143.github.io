@@ -1,34 +1,23 @@
 <template>
   <div class="card flex flex-col">
-    <img  loading="lazy" width="300"  height="300" v-if="img" :src="img" alt="project image" />
-    
+    <img loading="lazy" width="300" height="300" v-if="img" :src="img" alt="project image" />
+
     <p v-else class="text-white text-xl">{{ title }}</p>
-    
+
     <div class="info w-full">
       <h1 v-if="img" class="text-xl font-bold">{{ title }}</h1>
-      <UButton
- 
-       
-        class="mr-2"
-         v-if="more"
-        :to="`/project/${id}`"
-      >
-      <UIcon  name="i-heroicons-plus"  />
+      <UButton class="mr-2" v-if="more" :to="`/project/${id}`">
+        <UIcon name="i-heroicons-plus" />
 
-        <span class="ml-2"> More </span></UButton
-      >
-      <UButton
-        v-if="github"
-        target="_blank"
-       
-        :to="github"
-      >
-      <UIcon  name="i-heroicons-link"  />
+        <span class="ml-2"> More </span>
+      </UButton>
+      <UButton v-if="github" target="_blank" :to="github">
+        <UIcon name="i-heroicons-link" />
 
-        <span class="ml-2"> Github </span></UButton
-      >
-      
-      
+        <span class="ml-2"> Github </span>
+      </UButton>
+
+
       <!-- <div class="flex flex-wrap mt-8">
         
         <Projects2Skill
@@ -38,7 +27,7 @@
        :key="skill"
      ></Projects2Skill>
       </div> -->
-     
+
     </div>
   </div>
 
@@ -77,14 +66,16 @@
 
 <script setup>
 
-const props = defineProps(["id",'more',"description", "title", "github", "img", "skills"]);
+const props = defineProps(["id", 'more', "description", "title", "github", "img", "skills"]);
 </script>
 
 <style lang="scss">
 $color: rgb(51 65 85);
+
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
+
 .card {
   background: $color;
   padding: 20px;
@@ -114,32 +105,29 @@ $color: rgb(51 65 85);
     transition: 0.3s;
     opacity: 0;
   }
+
   &:hover {
-    @media (max-width: 960px) {
-      transform: translateY(0px);    
-      }
+  
     transform: translateY(20px);
-    
+
     &:before {
-      
+
       opacity: 0.9;
       visibility: visible;
     }
+
     .info {
       opacity: 1;
       visibility: visible;
       transform: translateY(0px);
     }
   }
+
   .info {
-    @media (max-width: 960px) {
-      opacity: 1;
-      visibility: visible; 
-      transform: translateY(0px);     
-      }
+ 
     position: relative;
     z-index: 3;
-   
+
     text-align: center;
 
     width: 100%;
@@ -148,27 +136,28 @@ $color: rgb(51 65 85);
     transform: translateY(100px);
     transition: 0.3s;
     margin-bottom: 20px;
+
     a {
-      background:  rgb(74 222 128);
+      background: rgb(74 222 128);
       border-radius: 5px;
       padding: 10px;
       margin-top: 10px;
-     
-      &:hover{
-        background:  rgb(96, 235, 147);
+
+      &:hover {
+        background: rgb(96, 235, 147);
       }
     }
+
     h1 {
-      @media (max-width: 960px) {
-          
-      }
+    
+
       margin-bottom: 10px;
     }
   }
+
   img {
-    @media (max-width: 960px) {
-      opacity: 0.2;
-    }
+   
+
     object-fit: cover;
     position: absolute;
     top: 0;

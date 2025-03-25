@@ -1,10 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   colorMode:{
     classSuffix:'',
   },
-  
+
   aos: {
     // Global settings:
     disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
@@ -26,7 +27,7 @@ export default defineNuxtConfig({
     mirror: false, // whether elements should animate out while scrolling past them
     anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
     },
-  modules: ['vue3-carousel-nuxt','@nuxt/ui','@nuxt/image','nuxt-aos', "@nuxtjs/svg-sprite", '@nuxt/content'],
-  
 
+  modules: ['vue3-carousel-nuxt', '@nuxt/ui', '@nuxt/image', 'nuxt-aos', "@nuxtjs/svg-sprite", '@nuxt/content', '@nuxt/icon'],
+  compatibilityDate: '2025-03-23',
 });
